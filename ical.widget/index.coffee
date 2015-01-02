@@ -1,6 +1,7 @@
 # A widget that displays your calendar events for today and tomorrow
 # Made by David Brooks
 # First time ever writing in JavaScript
+# Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
 # This command shows all of your events for today and tomorrow
 command: "'ical.widget/icalBuddy' -sd -n eventsToday+1 2>/dev/null"

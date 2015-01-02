@@ -1,6 +1,6 @@
 {
 	"name": "Calendar Events",
-	"description": "Displays Calendar (Built-in Mac App) events for today and tomorrow.",
+	"description": "Displays Calendar (Built-in Mac App) events for today and tomorrow. Using icalBuddy found here: http://hasseg.org/icalBuddy/",
 	"author": "David Brooks",
 	"email": "david@brooksphere.com"
 }
