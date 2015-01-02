@@ -33,6 +33,7 @@ renderLine: (string) -> """
 update: (output, domEl) ->
   lines = output.split('\n')
   $(domEl).html ''
+  $(domEl).html 'No Events Today or Tomorrow' if output is ""
   for line in lines
   	$(domEl).append @renderLine(line)
 
